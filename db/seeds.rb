@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Product.delete_all
+
+bacon = Product.create(
+	 title:			'bacon', 
+	 description:	'thick crispy crunchy bacon',
+	 image_url:		'/images/bacon.jpg',
+	 price:				 42.23 
+)
