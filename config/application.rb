@@ -17,6 +17,12 @@ end
 
 module Learning
   class Application < Rails::Application
+
+    # Generators to automatically generate using non-rails standard gems
+    config.generators do |g|
+      g.orm :mongoid
+    end
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
