@@ -14,7 +14,7 @@ end
 
 gem 'jquery-rails'
 gem 'therubyracer'
-gem 'unicorn'
+gem 'thin'
 
 group :test, :development do
   gem 'pry-rails'
